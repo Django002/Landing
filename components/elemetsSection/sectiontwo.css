@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "Montserrat-SemiBold.ttf";
+    src: url(/fonts/Montserrat/static/Montserrat-SemiBold.ttf);
+}
+
+
+.sectiontwo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+    height: 120px;
+    background-color: rgba(242, 245, 255, 1);
+
+}
+
+.sectiontwo_content{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+
+
+.sectiontwo_opisani h3{
+    font-size: 24px;
+    font-family: "Montserrat-SemiBold.ttf";
+    color: rgba(51, 51, 51, 1);
+}
+
+.sectiontwo_opisani p{
+    margin-top: 6px;
+    font-size: 16px;
+    font-family: "Montserrat-Medium.ttf";
+    color: rgba(51, 51, 51, 1);
+}
+
