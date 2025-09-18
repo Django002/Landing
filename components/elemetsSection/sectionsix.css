@@ -1,0 +1,41 @@
+.sectionsix{
+    border-bottom: 1px solid rgba(215, 214, 214, 1);
+}
+
+.sectionsix h1 {
+    display: flex;
+    font-size: 32px;
+    font-family: "Montserrat-Bold.ttf";
+    margin-top: 60px;
+    color: rgba(51, 51, 51, 1);
+    justify-content: center;
+}
+
+.sectionsix_cotext{
+    display: flex;
+    font-size: 20px;
+    font-family: "Montserrat-Regular.ttf";
+    margin-top: 20px;
+    justify-content: center;
+    color: rgba(51, 51, 51, 1);
+}
+
+.sectionthree_imgbloc{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 60px;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.blocimg_cotext{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    font-size: 20px;
+    font-family: "Montserrat-SemiBold.ttf";
+    justify-content: center;
+    color: rgba(51, 51, 51, 1);
+}
+

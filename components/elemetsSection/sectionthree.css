@@ -21,9 +21,18 @@
     color: rgba(51, 51, 51, 1);
 }
 
-.sectionthree_imgbloc{
+.sectionsix_imgbloc{
     margin-top: 50px;
     display: flex;
     justify-content: center;
     gap: 40px;
+    flex-wrap: wrap;
+}
+
+.bottom_position{
+    margin-top: 38px;
+}
+
+.top_position{
+    margin-bottom: 38px;
 }

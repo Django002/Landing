@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "Montserrat-Regular.ttf";
+    src: url(/fonts/Montserrat/static/Montserrat-Regular.ttf);
+}
+
+
+.cart_bloc{
+    display: block;
+    width: 381px;
+    height: 586px;
+}
+
+
+.sectionseve h1 {
+    display: flex;
+    font-size: 32px;
+    font-family: "Montserrat-Bold.ttf";
+    margin-top: 60px;
+    color: rgba(51, 51, 51, 1);
+    justify-content: center;
+}
+
+.sectionseve p{
+    display: flex;
+    font-size: 20px;
+    font-family: "Montserrat-Regular.ttf";
+    margin-top: 20px;
+    justify-content: center;
+    color: rgba(51, 51, 51, 1);
+}
+
+.cart_bloc h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-family: "Montserrat-Bold.ttf";
+    margin-top: 60px;
+    color: rgba(51, 51, 51, 1);
+    justify-content: center;
+}
+
+.cart_bloc span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: "Montserrat-Regular.ttf";
+    margin-top: 10px;
+    justify-content: center;
+    color: rgba(51, 51, 51, 1);
+}
+
+.carts_bloc{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}

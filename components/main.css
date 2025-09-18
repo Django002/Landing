@@ -3,9 +3,14 @@
 @import url(/components/elemetsSection/sectiontwo.css);
 @import url(/components/elemetsSection/sectionthree.css);
 @import url(/components/elemetsSection/sectionfour.css);
+@import url(/components/elemetsSection/sectionsix.css);
+@import url(/components/elemetsSection/sectionseve.css);
+@import url(/components/elemetsSection/sectioneight.css);
+@import url(/components/elemetsSection/footer.css);
 
 * {
 	padding: 0px;
 	margin: 0px;
 	border: none;
 }
+
