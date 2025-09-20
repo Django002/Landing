@@ -36,3 +36,17 @@
 .top_position{
     margin-bottom: 38px;
 }
+
+
+
+@media (max-width: 1220px) {
+    .sectionthree_imgbloc img{
+        width: 300px;
+    }
+}
+
+@media (max-width: 820px) {
+    .sectionthree_imgbloc img{
+        width: 220px;
+    }
+}

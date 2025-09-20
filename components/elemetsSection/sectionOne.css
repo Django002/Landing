@@ -1,12 +1,17 @@
 
 
 .sectionOne{
+    display: flex;
+
+    align-items: center;
     width: 100%;
-    height: 750px;
+    height: 50vw;
     background-image: url(/img/Mask\ Group.png);
     background-size: contain;
-    background-position: center center;
+    background-position:  center;
     position: relative;
+    
+    
 }
 
 .sectionOne_bloc{
@@ -14,9 +19,7 @@
     height: 410px;
     background-color: rgba(223, 233, 244, 1);
     border-radius: 20px;
-    position: absolute;
-    margin: 160px 950px ;
-    
+    margin-left: 50%;
 }
 
 .sectionOne_content{
@@ -63,4 +66,37 @@
     font-family: "Montserrat-Bold.tt";
     cursor: pointer;
     transition: 0.3s ease;
+}
+
+@media (max-width: 1220px) {
+    .sectionOne_bloc{
+        width: 510px;
+        height: 310px;
+        position: absolute;
+        margin-left: 450px ; 
+    }
+
+    .sectionOne_content button{
+        width: 130px;
+        height: 50px;
+        
+    }
+
+    .sectionOne_content p:first-child{
+        font-size: 14px;
+        letter-spacing: 3px;
+    }
+
+    .sectionOne_content h1{
+        font-size: 40px;
+        font-weight: 700;
+    
+    }
+
+    .sectionOne_content p:nth-child(3){
+        font-size: 14px;
+        
+    }
+
+ 
 }
