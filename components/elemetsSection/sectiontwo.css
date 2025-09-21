@@ -74,3 +74,37 @@
         
     }
 }
+
+@media (max-width:500px) {
+
+    .sectiontwo_content {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .sectiontwo{
+        gap: 5px;
+    }
+
+    .sectiontwo_opisani h3{
+        font-size: 13px;
+    }
+
+    .sectiontwo_opisani p{
+        margin-top: 6px;
+        font-size: 9px;
+        
+    }
+
+    .sectiontwo{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        padding: 5px;
+        flex-wrap: wrap;
+        gap: 20px;
+
+    }
+}

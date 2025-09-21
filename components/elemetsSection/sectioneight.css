@@ -66,3 +66,41 @@ form button:hover{
     transition: 0.3s ease;
     
 }
+
+@media (max-width:500px) {
+    .sectioneight_bloc h1  {
+        font-size: 20px;
+        font-family: "Montserrat-Bold.tt";
+        color: rgba(51, 51, 51, 1);
+    }
+
+    .sectioneight_bloc p{
+        font-size: 15px;
+        font-family: "Montserrat-Regular.ttf";
+        color: rgba(51, 51, 51, 1);
+        margin-top: 20px;
+        line-height: 39px;
+    }
+
+    form input{
+        width: 80%;
+        height: 25px;
+        
+    }
+
+    form button{
+        width: 120px;
+        height: 100%;
+        padding: 25px;
+        background-color: rgba(5, 76, 115, 1);
+        border-radius: 5px;
+        position: absolute;
+        top:0;
+        text-align: center;
+        color: aliceblue;
+        font-size: 10px;
+        font-family: "Montserrat-Bold.ttf";
+        right: 60px;
+        cursor: pointer;
+    }
+}

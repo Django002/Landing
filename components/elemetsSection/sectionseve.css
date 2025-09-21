@@ -59,3 +59,39 @@
     flex-wrap: wrap;
     margin-top: 50px;
 }
+
+@media (max-width:500px) {
+    .sectionsix{
+        height: 100%;
+    }
+
+    .sectionseve h1 {
+        font-size: 20px;
+        font-family: "Montserrat-Bold.tt";
+        color: rgba(51, 51, 51, 1);
+    }
+
+    .sectionseve p{
+        font-size: 15px;
+        font-family: "Montserrat-Regular.ttf";
+        color: rgba(51, 51, 51, 1);
+        margin-top: 20px;
+        line-height: 39px;
+        width: 100%;
+    }
+
+    .cart_bloc{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        height: 400px;
+        margin-bottom: 150px;
+    }
+
+    .cart_bloc img{
+        width: 350px;
+        height: 400px;
+    }
+
+    
+}

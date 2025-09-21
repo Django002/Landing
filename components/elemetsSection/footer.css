@@ -90,3 +90,31 @@ h2{
         height: 70%;
     }
 }
+
+@media (max-width:500px) {
+
+    .footer_cotextbloc{
+        display: flex;
+        justify-content: start;
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .footer_img{
+        gap: 15px;
+        width: 30%;
+        height: 45%;
+    }
+
+    h2{
+        font-size: 20px;
+        
+    }
+
+    .footer_cotextbloc p {
+        font-size: 15px;
+    }
+ 
+}
