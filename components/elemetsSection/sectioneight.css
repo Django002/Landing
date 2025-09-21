@@ -75,6 +75,7 @@ form button:hover{
     }
 
     .sectioneight_bloc p{
+        text-align: center;
         font-size: 15px;
         font-family: "Montserrat-Regular.ttf";
         color: rgba(51, 51, 51, 1);
@@ -83,7 +84,7 @@ form button:hover{
     }
 
     form input{
-        width: 80%;
+        width: 90%;
         height: 25px;
         
     }
@@ -100,7 +101,10 @@ form button:hover{
         color: aliceblue;
         font-size: 10px;
         font-family: "Montserrat-Bold.ttf";
-        right: 60px;
+        right: 2px;
         cursor: pointer;
+    }
+    .sectioneight{
+        display: flex;
     }
 }

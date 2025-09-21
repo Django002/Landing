@@ -77,6 +77,11 @@
 
 @media (max-width:500px) {
 
+    .sectiontwo_content img{
+        width: 30px;
+        height: 30px;
+    }
+
     .sectiontwo_content {
         display: flex;
         justify-content: center;
@@ -102,7 +107,7 @@
         align-items: center;
         width: 100%;
         height: 100%;
-        padding: 5px;
+        padding-top: 5px;
         flex-wrap: wrap;
         gap: 20px;
 

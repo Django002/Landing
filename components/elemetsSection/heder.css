@@ -58,7 +58,7 @@
 
 @media (max-width:500px) {
     .header_navigate{
-        visibility: hidden;
+        display: none;
     }
 
 }
