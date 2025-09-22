@@ -18,7 +18,7 @@
 
 html, body {
   width: 100%;
-  overflow-x: hidden; /* Предотвращает горизонтальный скролл */
+  /* overflow-x: hidden;  */
   
 }
 
@@ -26,4 +26,10 @@ body {
   min-width: 320px; /* Минимальная ширина для мобильных */
 }
 
+.sectionOne, .sectiontwo, .sectionthree, 
+.sectionfour, .sectionsix, .sectionseve, 
+.sectioneight, .footer {
+  width: 100% !important;
+  max-width: 100% !important;
+}
 
