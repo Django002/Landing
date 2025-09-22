@@ -80,6 +80,13 @@
         width: 90%;
         height: 80%;
     }
+    .sectionfour_imgbloc{
+       display: none;}
+
+    .bacgrouimg{
+        display: none;
+        
+    }
 
     .sectionfour_content{
         margin-left: 30px; 
@@ -115,6 +122,13 @@
         left: 100px;
         
     }
+    .sectionfour_imgbloc{
+       display: none;}
+
+    .bacgrouimg{
+        display: none;
+        
+    }
 
     .sectionfour{
         gap: 10px;
@@ -124,10 +138,10 @@
 @media (max-width:500px) {
 
     .sectionfour_imgbloc{
-       visibility: hidden;}
+       display: none;}
 
     .bacgrouimg{
-        visibility: hidden;
+        display: none;
         
     }
 

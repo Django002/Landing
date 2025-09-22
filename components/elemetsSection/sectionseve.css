@@ -87,6 +87,7 @@
         flex-wrap: wrap;
         height: 400px;
         margin-bottom: 150px;
+        text-align: center;
     }
 
     .cart_bloc img{
